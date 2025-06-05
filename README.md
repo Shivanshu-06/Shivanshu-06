@@ -19,10 +19,12 @@
   <img src="https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000" alt="Canva" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=W0YEwBDDfTeu&format=png&color=000000" alt="Figma" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=KyMSnxjEVwCr&format=png&color=000000" alt="Notion" width="45" height="45"/>
-  <img src="" alt="" width="45" height="45"/>
 </p>
 
-![Shivanshu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="200"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200"/>
+</p>
 
 ## *💬Reach Out to Me:*
 <p align="left">
