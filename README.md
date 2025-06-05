@@ -9,7 +9,7 @@
   <span>
   <img src="https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000" alt="C++" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000" alt="Python" width="45" height="45"/>
-  <img src="https://www.vectorlogo.zone/logos/ros/ros-ar21~bgwhite.svg" alt="ROS" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/ros/ros-ar21~bgwhite.svg" alt="ROS" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=Of4lZV2lwBQI&format=png&color=000000" alt="Arduino" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=xBW8JMtsQGFC&format=png&color=000000" alt="Android Studio" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=jboFV8ZOXgZR&format=png&color=000000" alt="Ubuntu" width="45" height="45"/>
