@@ -29,7 +29,7 @@
 <h2 align="center">🚀 GitHub Stats & Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide=prs&count_private=true&hide_border=true" width="420"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide=prs&count_private=true&hide_border=true" width="430"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="400"/>
 </p>
 
