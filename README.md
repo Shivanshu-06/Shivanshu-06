@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&&margin-w=10&margin-h=10&no-frame=true" width="90%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&&margin-w=10&margin-h=10&no-frame=true" width="95%" />
 </p>
 
 ## *💬Reach Out to Me:*
