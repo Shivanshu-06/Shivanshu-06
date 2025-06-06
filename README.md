@@ -25,7 +25,9 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="200"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true&hide_border=true" alt="GitHub Streak" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&no-frame=true&hide_border=true" />
 </p>
 
 ## *💬Reach Out to Me:*
