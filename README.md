@@ -23,12 +23,14 @@
   </span>
   </p>
 
-| GitHub Stats | Streak | Top Languages |
-|--------------|--------|----------------|
-| ![Stats](https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide_border=true&width="450") | ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true&width="420") | ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide_border=true&width="320") |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide_border=true" width="450"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="420"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide_border=true" width="340"/>
+</p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&margin-w=10&margin-h=15&no-frame=true"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&&margin-w=10&margin-h=10&no-frame=true" width="90%" />
 </p>
 
 ## *💬Reach Out to Me:*
