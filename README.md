@@ -23,10 +23,15 @@
   </span>
   </p>
 
+<h2 align="center">🚀 GitHub Stats & Activity</h2>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide_border=true" width="450"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="420"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide_border=true" width="340"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide=prs&count_private=true&hide_border=true" width="420"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="400"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide=html&hide_border=true" width="300"/>
 </p>
 
 <p align="center">
@@ -43,3 +48,5 @@
 </p>
 
 ![footer](https://capsule-render.vercel.app/api?type=Soft&color=auto&height=20&section=footer)
+
+
