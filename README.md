@@ -23,7 +23,6 @@
   <img src="https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000" alt="Canva" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=W0YEwBDDfTeu&format=png&color=000000" alt="Figma" width="45" height="45"/>
   <img src="https://img.icons8.com/?size=100&id=KyMSnxjEVwCr&format=png&color=000000" alt="Notion" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=KyMSnxjEVwCr&format=png&color=000000" alt="Notion" width="45" height="45"/>
   <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="45" height="45"/>
   </span>
   </p>
