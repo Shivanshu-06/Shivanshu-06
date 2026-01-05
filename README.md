@@ -10,19 +10,18 @@
 ## 🧠Some Languages & Tools I have learned and using....
 <p align="left">
   <span>
-  <img src="https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000" alt="C++" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000" alt="Python" width="45" height="45"/>
-  <img src="https://www.vectorlogo.zone/logos/ros/ros-ar21~bgwhite.svg" alt="ROS" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=Of4lZV2lwBQI&format=png&color=000000" alt="Arduino" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=xBW8JMtsQGFC&format=png&color=000000" alt="Android Studio" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=jboFV8ZOXgZR&format=png&color=000000" alt="Ubuntu" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000" alt="Jupyter Notebooks" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="VS Code" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=GRYhBqf5jdP9&format=png&color=000000" alt="Adobe Indesign" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=QaT9iepDXQab&format=png&color=000000" alt="Adobe Illustrator" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000" alt="Canva" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=W0YEwBDDfTeu&format=png&color=000000" alt="Figma" width="45" height="45"/>
-  <img src="https://img.icons8.com/?size=100&id=KyMSnxjEVwCr&format=png&color=000000" alt="Notion" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=cpp" alt="C++" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=ros" alt="ROS" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=arduino" alt="Arduino" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=ai" alt="Adobe Illustrator" width="45" height="45"/>
+  <img src="https://skills.syvixor.com/api/icons?i=canva" alt="Canva" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=autocad" alt="AutoCad" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=notion" alt="Notion" width="45" height="45"/>
   <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="45" height="45"/>
   </span>
   </p>
