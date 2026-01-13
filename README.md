@@ -38,11 +38,9 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 
 ## 📌 Featured Work (Coming Soon)
 🚧 Repositories currently under active development:
-- Quadruped robot simulation & control (ROS 2 + MuJoCo)
-- Sensor pipelines for LiDAR & perception
-- Reinforcement learning experiments for locomotion
-
-> 🔍 *Pinned repositories will showcase complete, well-documented projects.*
+- unitree-go2-simulation
+- robot-perception-lidar
+- rl-locomotion-mujoco
 
 ---
 
