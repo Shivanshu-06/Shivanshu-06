@@ -38,9 +38,10 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 
 ## 📌 Featured Work (Coming Soon)
 🚧 Repositories currently under active development:
-- unitree-go2-simulation
-- robot-perception-lidar
-- rl-locomotion-mujoco
+- quadruped-locomotion-mujoco-ros2
+- ros2-multi-sensor-fusion
+- robot-path-planning-lab
+- more....
 
 ---
 
