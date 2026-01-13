@@ -56,10 +56,10 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 ## 📬 Connect With Me
 <p align="left">
   <a href="https://www.linkedin.com/in/shivanshupatil/">
-    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" height="40"/>
+    <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" height="40"/>
   </a>
   <a href="mailto:shivanshupatil123@gmail.com">
-    <img src="https://img.icons8.com/ios-filled/50/000000/gmail.png" height="40"/>
+    <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" height="40"/>
   </a>
 </p>
 
