@@ -36,15 +36,6 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 
 ---
 
-## 📌 Featured Work (Coming Soon)
-🚧 Repositories currently under active development:
-- quadruped-locomotion-mujoco-ros2
-- ros2-multi-sensor-fusion
-- robot-path-planning-lab
-- more....
-
----
-
 ## 📊 GitHub Activity
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="420"/>
