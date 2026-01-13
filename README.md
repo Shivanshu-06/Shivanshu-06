@@ -1,58 +1,68 @@
-# ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=165&section=header&text=👋%Hi,%20I'm%20Shivanshu%&fontSize=40&fontColor=1c1c1c&fontAlignY=40)
-- 🌍 Currently based in Ingolstadt, Germany
-- 🤖 Working on Robotics, AI, and Embedded Systems
-- 💡 Passionate about self-driving cars, LiDAR, and reinforcement learning
-- 🚀 Currently experimenting with ROS2, Unitree Go2, and MuJoCo
-- 🛠️ Actively building my GitHub profile – more projects coming soon!
+# ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=170&section=header&text=👋%20Hi,%20I'm%20Shivanshu&fontSize=40&fontColor=1c1c1c&fontAlignY=40)
+
+🎓 Master’s student in Robotics & Automation  
+🤖 Robotics • AI • Embedded Systems  
+📍 Ingolstadt, Germany  
 
 ---
 
-## 🧠Some Languages & Tools I have learned and using....
+## 🚀 About Me
+I am a robotics-focused engineer with a strong interest in **autonomous systems**, **LiDAR-based perception**, and **reinforcement learning**.  
+My work revolves around **simulation-first development**, ROS 2-based systems, and bridging research with real-world robotic platforms.
+
+- 🤖 Working on robotics, AI, and embedded systems   
+- 🧠 Exploring reinforcement learning for robot control  
+- ⚙️ Hands-on with ROS 2, Unitree Go2, and MuJoCo  
+- 🚧 Actively building and refining my GitHub portfolio
+
+---
+
+## 🛠️ Tech Stack & Tools
 <p align="left">
-  <span>
-  <img src="https://skillicons.dev/icons?i=cpp" alt="C++" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=py" alt="Python" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=ros" alt="ROS" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=arduino" alt="Arduino" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=ai" alt="Adobe Illustrator" width="45" height="45"/>
-  <img src="https://skills.syvixor.com/api/icons?i=canva" alt="Canva" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=autocad" alt="AutoCad" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=notion" alt="Notion" width="45" height="45"/>
-  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="45" height="45"/>
-  </span>
-  </p>
-
-<h2 align="center">🚀 GitHub Stats & Activity</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&theme=tokyonight&hide=prs&count_private=true&hide_border=true" width="430"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="400"/>
+  <img src="https://skillicons.dev/icons?i=cpp" height="45"/>
+  <img src="https://skillicons.dev/icons?i=python" height="45"/>
+  <img src="https://skillicons.dev/icons?i=ros" height="45"/>
+  <img src="https://skillicons.dev/icons?i=git" height="45"/>
+  <img src="https://skillicons.dev/icons?i=docker" height="45"/>
+  <img src="https://skillicons.dev/icons?i=ubuntu" height="45"/>
+  <img src="https://skillicons.dev/icons?i=arduino" height="45"/>
+  <img src="https://skillicons.dev/icons?i=autocad" height="45"/>
+  <img src="https://skillicons.dev/icons?i=figma" height="45"/>
+  <img src="https://skillicons.dev/icons?i=notion" height="45"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&theme=tokyonight&hide=html&hide_border=true" width="290"/>
-</p>
+> **Focus Areas:**  
+> ROS 2 • Robot Simulation • Perception • Reinforcement Learning • Embedded Control
 
+---
+
+## 📌 Featured Work (Coming Soon)
+🚧 Repositories currently under active development:
+- Quadruped robot simulation & control (ROS 2 + MuJoCo)
+- Sensor pipelines for LiDAR & perception
+- Reinforcement learning experiments for locomotion
+
+> 🔍 *Pinned repositories will showcase complete, well-documented projects.*
+
+---
+
+## 📊 GitHub Activity
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shivanshu-06&theme=tokyonight&&margin-w=10&margin-h=10&no-frame=true" width="95%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=tokyonight&hide_border=true" width="420"/>
 </p>
 
 ---
 
-## 📬Reach Out to Me:
+## 📬 Connect With Me
 <p align="left">
-  <span>
-  <a href="https://www.linkedin.com/in/shivanshupatil/"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="LinkedIn" width="45" height="45"></a>
-  <a href="mailto:shivanshupatil123@gmail.com"><img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" alt="Gmail" width="45" height="45"></a>
-  <a href="https://www.instagram.com/_shiv.06_/"><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Instagram" width="45" height="45"></a>
-  </span>
+  <a href="https://www.linkedin.com/in/shivanshupatil/">
+    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" height="40"/>
+  </a>
+  <a href="mailto:shivanshupatil123@gmail.com">
+    <img src="https://img.icons8.com/ios-filled/50/000000/gmail.png" height="40"/>
+  </a>
 </p>
 
-
-![footer](https://capsule-render.vercel.app/api?type=Soft&color=auto&height=20&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=soft&color=auto&height=20&section=footer)
 
 
