@@ -43,15 +43,6 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 
 ---
 
-## 📌 Featured Work
-🚧 Repositories currently under active development:
-- ros2-autonomous-navigation-sim
-- quadruped-robot-simulation-mujoco
-- rl-robot-locomotion-ppo
-- lidar-perception-ros2
-
----
-
 ## 📬 Connect With Me
 <p align="left">
   <a href="https://www.linkedin.com/in/shivanshupatil/">
