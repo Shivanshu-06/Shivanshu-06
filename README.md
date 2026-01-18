@@ -26,9 +26,11 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
   <img src="https://skillicons.dev/icons?i=docker" height="45"/>
   <img src="https://skillicons.dev/icons?i=ubuntu" height="45"/>
   <img src="https://skillicons.dev/icons?i=arduino" height="45"/>
+  <img src="https://skillicons.dev/icons?i=raspberrypi" height="45"/>
   <img src="https://skillicons.dev/icons?i=autocad" height="45"/>
   <img src="https://skillicons.dev/icons?i=figma" height="45"/>
   <img src="https://skillicons.dev/icons?i=notion" height="45"/>
+
 </p>
 
 > **Focus Areas:**  
