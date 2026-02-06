@@ -4,8 +4,6 @@
 🤖 Robotics • AI • Embedded Systems  
 📍 Ingolstadt, Germany  
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2937,100:111827&height=2" />
-
 ## 🚀 About Me
 I am a robotics-focused engineer with a strong interest in **autonomous systems**, **LiDAR-based perception**, and **reinforcement learning**.  
 My work revolves around **simulation-first development**, ROS 2-based systems, and bridging research with real-world robotic platforms.
