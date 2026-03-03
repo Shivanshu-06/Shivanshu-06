@@ -5,7 +5,7 @@
 📍 Ingolstadt, Germany  
 
 ## 🚀 About Me
-I am a robotics-focused engineer with a strong interest in **autonomous systems**, **LiDAR-based perception**, and **reinforcement learning**. Currently working in Process Control Engineers GmbH on Unitree Go2, few projects on Gebäudeautomation. In my free time I listen music, watch anime and read thriller books and manga.
+I am a robotics-focused engineer with a strong interest in **autonomous systems**, **LiDAR-based perception**, and **reinforcement learning**. Currently working in Process Control Engineers GmbH on **Unitree Go2**, few projects on **Gebäudeautomation**. In my free time I listen music, watch anime and read thriller books and manga.
 
 - 🤖 Working on robotics, AI, and embedded systems   
 - 🧠 Exploring reinforcement learning for robot control  
