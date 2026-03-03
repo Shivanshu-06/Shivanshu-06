@@ -1,6 +1,6 @@
 # ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=170&section=header&text=👋%20Hallo,%20Ich%20bin%20Shiv&fontSize=40&fontColor=1c1c1c&fontAlignY=40)
 
-🎓 Master’s student in AI Engg. for Autonomous Systems  
+🎓 Master’s student in AI Engineering for Autonomous Systems  
 🤖 Robotics • AI • Automation Systems  
 📍 Eichstätt, Germany  
 
