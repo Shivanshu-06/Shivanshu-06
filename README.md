@@ -32,7 +32,7 @@ My work revolves around **simulation-first development**, ROS 2-based systems, a
 
 > **Focus Areas:**  
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3500&pause=1200&center=true&vCenter=true&width=600&lines=Robotics+%7C+ROS2+%7C+Simulation;Lidar+%7C+SLAM+%7C+Reinforcement+Learning;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3500&pause=1200&center=true&vCenter=true&width=600&lines=Robotics+%7C+ROS+%7C+Simulation;Lidar+%7C+SLAM+%7C+Reinforcement+Learning;" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2937,100:111827&height=2" />
