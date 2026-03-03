@@ -1,15 +1,16 @@
 # ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=170&section=header&text=👋%20Hallo,%20Ich%20bin%20Shiv&fontSize=40&fontColor=1c1c1c&fontAlignY=40)
 
-🎓 Master’s student in Robotics & Automation  
-🤖 Robotics • AI • Embedded Systems  
-📍 Ingolstadt, Germany  
+🎓 Master’s student in AI Engg. for Autonomous Systems  
+🤖 Robotics • AI • Automation Systems  
+📍 Eichstätt, Germany  
 
 ## 🚀 About Me
 I am a robotics-focused engineer with a strong interest in **autonomous systems**, **LiDAR-based perception**, and **reinforcement learning**. Currently working in Process Control Engineers GmbH on **Unitree Go2**, few projects on **Gebäudeautomation**. In my free time I listen music, watch anime and read thriller books and manga.
 
-- 🤖 Working on robotics, AI, and embedded systems   
+- 🎓 Studying at Technische Hochschule Ingolstadt (THI)
+- 🤖 Working on robotics, AI, and Automation systems   
 - 🧠 Exploring reinforcement learning for robot control  
-- ⚙️ Hands-on with ROS 2, Unitree Go2, and MuJoCo  
+- ⚙️ Hands-on with ROS, Unitree Go2, and MuJoCo
 - 🚧 Actively building and refining my GitHub portfolio
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2937,100:111827&height=2" />
