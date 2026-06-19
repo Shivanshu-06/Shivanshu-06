@@ -22,6 +22,7 @@ I am a robotics-focused engineer with a strong interest in **autonomous systems*
   <img src="https://skillicons.dev/icons?i=ros" height="45"/>
   <img src="https://skillicons.dev/icons?i=git" height="45"/>
   <img src="https://skillicons.dev/icons?i=docker" height="45"/>
+  <img src="https://skillicons.dev/icons?i=typescript" height="45"/>
   <img src="https://skillicons.dev/icons?i=ubuntu" height="45"/>
   <img src="https://skillicons.dev/icons?i=arduino" height="45"/>
   <img src="https://skillicons.dev/icons?i=raspberrypi" height="45"/>
