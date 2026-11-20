@@ -34,5 +34,6 @@ jobs:
           git add assets/cozy/
           if ! git diff --cached --quiet; then
             git commit -m 'chore(profile): refresh website screenshots and cozy GIF'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
