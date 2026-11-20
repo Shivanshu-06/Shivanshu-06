@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <img src="./assets/cozy/anime-coder-comedy.gif" alt="Funny original anime-style chibi programmer reacting dramatically to bugs" width="720" />
+  <a href="https://tenor.com/view/naruto-ramen-gif-20532937"><img src="https://media1.tenor.com/m/igiTUQC0eS0AAAAd/naruto-ramen.gif" alt="Naruto with ramen — animated GIF from Tenor" width="498" /></a>
 </div>
 
 ---
