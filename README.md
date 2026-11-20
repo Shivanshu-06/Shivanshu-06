@@ -120,6 +120,43 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 </div>
 
+<details>
+<summary><b>🕹️ BONUS LEVEL — Open the developer inventory</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎮 Main quests**
+
+- Full-stack websites and web apps
+- Industrial control interfaces
+- ROS 2 robotics and 3D mapping
+
+</td>
+<td width="50%" valign="top">
+
+**🧪 Side quests**
+
+- [Robot Incident Lab](https://github.com/Shivanshu-06/robot-incident-lab)
+- Python experiments and developer tools
+- Gaming, anime and manga
+
+</td>
+</tr>
+</table>
+
+```text
+PLAYER     SHIV
+CLASS      DEVELOPER
+LOADOUT    TYPESCRIPT · PYTHON · ROS 2
+STATUS     BUILDING
+```
+
+</details>
+
 ## 🎮 Beyond the keyboard
 
 <div align="center">
