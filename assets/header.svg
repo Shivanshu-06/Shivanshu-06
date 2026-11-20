@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Shiv — full-stack development, industrial automation, robotics">
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#333842" stroke-width=".8"/></pattern>
+ <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#101114"/><stop offset="1" stop-color="#202227"/></linearGradient>
+ <clipPath id="clip"><rect width="1200" height="300" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)"><rect width="1200" height="300" fill="url(#fade)"/><rect width="1200" height="300" fill="url(#grid)" opacity=".55"/>
+<path d="M0 248H1200" stroke="#5c626c" stroke-width="1"/>
+<g opacity=".5" stroke="#a6acb5" fill="none" stroke-width="1.5"><path d="M760 210H830V155H915V112H1005V73H1180" stroke-dasharray="9 9"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3s" repeatCount="indefinite"/></path><circle cx="915" cy="155" r="5"><animate attributeName="r" values="4;9;4" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="1005" cy="112" r="5"/></g>
+<rect x="56" y="43" width="9" height="9" rx="2" fill="#d7dce3"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></rect><text x="78" y="52" fill="#b8bec8" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="3">PROFILE / GITHUB</text>
+<text x="54" y="159" fill="#f5f5f6" font-family="Arial,Helvetica,sans-serif" font-size="91" font-weight="700" letter-spacing="-5">Shiv</text>
+<rect x="259" y="92" width="5" height="74" rx="2" fill="#d4d7dd"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.5;.95;1" dur="1.3s" repeatCount="indefinite"/></rect>
+<text x="57" y="206" fill="#c6cbd2" font-family="Arial,Helvetica,sans-serif" font-size="23">Full-Stack Development  /  Industrial Automation  /  Robotics</text>
+<text x="57" y="275" fill="#9fa6b1" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2">GERMANY  ·  PCE PROCESS CONTROL ENGINEERS GMBH</text>
+<g fill="#858b95"> <circle cx="1110" cy="265" r="3"/><circle cx="1130" cy="265" r="3"/><circle cx="1150" cy="265" r="3"/></g>
+</g></svg>
