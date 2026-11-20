@@ -1,6 +1,11 @@
-name: Update Graphite stats
+name: Update GitHub profile statistics
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_stats.py'
+      - '.github/workflows/update-stats.yml'
   schedule:
     - cron: '23 5 * * *'
 permissions:
@@ -29,6 +34,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add assets/stats/overview.svg assets/stats/languages.svg
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh Graphite profile statistics'
-            git push
+            git commit -m 'chore(profile): refresh public GitHub stats'
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
