@@ -1,26 +1,34 @@
 <div align="center">
 
-### ✦ SHIVANSHU / SHIV ✦
+### 🍃 SHIVANSHU / SHIV 🍃
 
-# Building things for the real world.
+# A little code, a lot of curiosity.
 
 **Full-Stack Developer · Industrial Automation Programmer · Robotics Enthusiast**
 
 Germany 🇩🇪 · [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)
 
-<sub>「コードと創造性」 — code & creativity · an engineering portfolio with a little anime energy</sub>
+<sub>「小さな一歩から」 — from small steps · building useful things with a little wonder</sub>
 
 <br>
 
-[![Portfolio: Live Websites](https://img.shields.io/badge/Portfolio-3%20featured%20websites-E8DFFA?style=for-the-badge&labelColor=FCFAFF&color=9D85CC)](#-featured-web-projects)
-[![PCE Organization](https://img.shields.io/badge/Company-PCE%20Engineering-E7F2EF?style=for-the-badge&labelColor=FCFAFF&color=6D9B90)](https://github.com/PCE-Process-Control-Engineers-GmbH)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E9F1FC?style=for-the-badge&labelColor=FCFAFF&color=7A9EC8)](https://www.linkedin.com/in/shivanshupatil/)
+[![Portfolio: Live Websites](https://img.shields.io/badge/Portfolio-3%20featured%20websites-E8DFFA?style=for-the-badge&labelColor=FCFAFF&color=83A38A)](#-featured-web-projects)
+[![PCE Organization](https://img.shields.io/badge/Company-PCE%20Engineering-E7F2EF?style=for-the-badge&labelColor=FCFAFF&color=9EAA83)](https://github.com/PCE-Process-Control-Engineers-GmbH)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E9F1FC?style=for-the-badge&labelColor=FCFAFF&color=B39B7E)](https://www.linkedin.com/in/shivanshupatil/)
 
 </div>
 
 ---
 
-## 🌸 The developer behind the code
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif" alt="Original cozy pixel-art animation: a cat, a coding desk and a leafy plant" width="560" />
+  <br />
+  <sub>✿ a quiet coding corner · original pixel art · made for this profile ✿</sub>
+</div>
+
+---
+
+## 🌿 The developer behind the code
 
 I develop **production-facing websites and web applications** for engineering businesses, while also building software for **industrial automation** and **robotics**. I enjoy turning complex technical workflows into accessible, reliable user experiences.
 
@@ -31,55 +39,46 @@ I develop **production-facing websites and web applications** for engineering bu
 
 > **Currently focused on:** Web platforms and developer experience for industrial engineering.
 
-## ✨ Featured web projects
+## 🍵 Selected work · the three websites
 
-<sub>My main work lives in the [PCE GitHub organization](https://github.com/PCE-Process-Control-Engineers-GmbH). Some source repositories are private; the public product links below are the best way to explore the work.</sub>
+<sub>Built as part of my work with [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH). Screenshots are captured from the real public websites by a scheduled GitHub Action. Some source repositories are private.</sub>
 
 <table>
-<tr>
-<td width="50%" valign="top">
+<tr><td width="50%" valign="top">
 
-### 01 · [PCE Controls Engineers](https://www.pce-ei.de/)
+<a href="https://www.pce-ei.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-controls.png" alt="Real screenshot of PCE Controls Engineers website" width="100%" /></a>
 
-**Multilingual engineering company website**
-
-DE/EN experience with service and project pages, careers, news, responsive layouts and localized routing.
+### 01 · PCE Controls Engineers
+**Engineering, in two languages.** A responsive DE/EN company site with services, projects, careers, news and localized routing.
 
 `Next.js` `TypeScript` `Tailwind CSS` `next-intl`
 
-[**Visit live site ↗**](https://www.pce-ei.de/) · [Public preview repository](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-website-preview)
+[Live website ↗](https://www.pce-ei.de/) · [Public preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-website-preview)
 
-</td>
-<td width="50%" valign="top">
+</td><td width="50%" valign="top">
 
-### 02 · [PCE Energy Solutions](https://www.pce-es.de/de/)
+<a href="https://www.pce-es.de/de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-energy.png" alt="Real screenshot of PCE Energy Solutions website" width="100%" /></a>
 
-**Corporate energy and engineering website**
-
-Responsive company presentation and polished web experience for engineering and energy solutions.
+### 02 · PCE Energy Solutions
+**Engineering with a clean digital presence.** A responsive corporate experience for energy and engineering services.
 
 `Next.js` `React` `Responsive UI`
 
-[**Visit live site ↗**](https://www.pce-es.de/de/) · [Public preview repository](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-es-website-preview)
+[Live website ↗](https://www.pce-es.de/de/) · [Public preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-es-website-preview)
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+</td></tr>
+<tr><td colspan="2" valign="top">
 
-### 03 · [Data-Know-How](https://data-know-how.de/)
+<a href="https://data-know-how.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/data-know-how.png" alt="Real screenshot of Data-Know-How industrial training website" width="100%" /></a>
 
-**Industrial training and inquiry platform**
-
-Training catalogue, course details, qualification pathways, multilingual-friendly page structure, and backend-connected inquiry/admin flows. Built for people who need to find the right industrial training without friction.
+### 03 · Data-Know-How
+**Industrial training, thoughtfully organized.** A course catalogue with qualification pathways, course details, and Supabase-backed inquiry and administration workflows.
 
 `Next.js` `TypeScript` `Tailwind CSS` `Supabase` `PostgreSQL`
 
-[**Explore platform ↗**](https://data-know-how.de/) · **Source: private company repository**
+[Explore the live platform ↗](https://data-know-how.de/) · **Private company source repository**
 
-</td>
-</tr>
-</table>
+</td></tr></table>
 
 ## 🛠 Beyond the browser
 
@@ -99,48 +98,48 @@ Training catalogue, course details, qualification pathways, multilingual-friendl
 
 </div>
 
-## 📈 GitHub activity
+## 🌱 GitHub activity
 
 <div align="center">
 
 <!-- The cards below reflect personal/public GitHub data, not the total work owned by the PCE organization. -->
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=default&hide_border=true&background=FFFCFA&ring=9D85CC&fire=D9898E&currStreakLabel=806BB4&sideLabels=746C83&dates=857E8F" width="58%" alt="GitHub contribution streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=default&hide_border=true&background=FFFCFA&ring=83A38A&fire=C79D72&currStreakLabel=6B8872&sideLabels=786D61&dates=948879" width="58%" alt="GitHub contribution streak" />
 
 <br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="95%" alt="GitHub profile activity summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="95%" alt="Personal GitHub activity timeline" />
 
 <br>
 
-<sub>GitHub contribution activity can include eligible commits to company repositories when attributed to this account. Private repo names and code are never disclosed by these widgets.</sub>
+<sub>These are personal GitHub activity visualizations, not organization-wide totals. Eligible private contributions may appear as anonymized activity when GitHub settings and commit attribution permit it.</sub>
 
 </div>
 
-## 🐍 Contribution quest
+## 🐍 The contribution trail
 
 <div align="center">
 
-**The contribution grid, but make it an arcade level.** 🎮
+**A little pixel adventure through my contribution history.** 🎮
 
 <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/output/github-contribution-grid-snake.gif" width="95%" alt="Animated contribution snake eating GitHub activity blocks" />
 
-<sub>Generated automatically by GitHub Actions · pastel pixel palette · refreshes daily</sub>
+<sub>Generated automatically by GitHub Actions · soft pixel palette · refreshes daily</sub>
 
 </div>
 
-## ☕ After-hours loading screen
+## ☕ Beyond the keyboard
 
 <div align="center">
 
 `anime watcher` · `manga reader` · `music on repeat` · `always learning`
 
-*The next arc is always under development.* 🌷
+*Every good story has another chapter.* 🍃
 
 ---
 
 [**LinkedIn**](https://www.linkedin.com/in/shivanshupatil/) · [**Email**](mailto:shivanshupatil123@gmail.com) · [**PCE GitHub**](https://github.com/PCE-Process-Control-Engineers-GmbH)
 
-<sub>✦ Built with curiosity, engineering, and a few anime references ✦</sub>
+<sub>✦ Built with curiosity, engineering, and a little everyday magic ✦</sub>
 
 </div>
