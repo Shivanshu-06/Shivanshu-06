@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <a href="https://tenor.com/view/naruto-thumbs-up-wink-anime-gif-17961512"><img src="https://media1.tenor.com/m/XKNjuLjL7W8AAAAd/naruto-thumbs-up.gif" alt="Naruto giving a thumbs-up — animated GIF from Tenor" width="498" /></a>
+  <a href="https://tenor.com/view/naruto-funny-dance-anime-gif-14276186"><img src="https://media1.tenor.com/m/jhBI0miXKYAAAAAd/naruto-funny.gif" alt="Funny Naruto anime reaction GIF from Tenor" width="420" /></a>
 </div>
 
 ---
