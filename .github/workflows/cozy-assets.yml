@@ -1,0 +1,38 @@
+name: Refresh cozy portfolio assets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/cozy_assets.py'
+      - '.github/workflows/cozy-assets.yml'
+  schedule:
+    - cron: '17 7 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: cozy-portfolio-assets
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow playwright
+      - run: python -m playwright install --with-deps chromium
+      - name: Capture websites and create original GIF
+        run: python scripts/cozy_assets.py
+      - name: Commit generated portfolio assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/cozy/
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(profile): refresh website screenshots and cozy GIF'
+            git push
+          fi
