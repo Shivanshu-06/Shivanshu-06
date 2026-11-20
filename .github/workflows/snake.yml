@@ -1,0 +1,39 @@
+name: Generate pastel contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/snake.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate animated GIF
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Shivanshu-06
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.gif?color_snake=%23C18AD9&color_dots=%23F7F2F9,%23E8DDF1,%23D2BCE5,%23AD91CE,%238A6CB6&color_background=%23FFFCFA
+
+      - name: Publish GIF to output branch
+        uses: crazy-max/ghaction-github-pages@v3.2.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
