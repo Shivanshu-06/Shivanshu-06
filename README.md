@@ -1,16 +1,27 @@
 <div align="center">
 
-# Hey, I'm Shiv! 👋
-
-**Full-Stack Developer** · **Industrial Automation** · **Robotics**
-
-🇩🇪 Germany &nbsp; · &nbsp; [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:151B2B,50:27324B,100:151B2B&height=14&section=header" width="100%" alt="" />
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Shivanshu-06&label=Profile%20Views&color=6B8F85&style=flat-square" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Shivanshu-06?label=Followers&style=flat-square&color=9A8BC1&labelColor=F0EDF7" alt="GitHub followers" />
-<img src="https://img.shields.io/github/stars/Shivanshu-06?affiliations=OWNER&style=flat-square&label=Stars&color=C49A75&labelColor=F7F0E9" alt="GitHub stars" />
+# Hey, I'm Shiv! 👋
+
+**`FULL-STACK DEVELOPER`** &nbsp; **`INDUSTRIAL AUTOMATION`** &nbsp; **`ROBOTICS`**
+
+<br>
+
+<img src="https://img.shields.io/badge/LOCATION-Germany-596D88?style=flat-square&labelColor=222B3B" alt="Based in Germany" />
+<a href="https://github.com/PCE-Process-Control-Engineers-GmbH"><img src="https://img.shields.io/badge/WORKING_AT-PCE_Process_Control_Engineers-596D88?style=flat-square&labelColor=222B3B" alt="PCE Process Control Engineers GmbH" /></a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=Shivanshu-06&label=PROFILE%20VIEWS&color=607D8B&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Shivanshu-06?label=FOLLOWERS&style=flat-square&color=607D8B" alt="Followers" />
+<img src="https://img.shields.io/github/stars/Shivanshu-06?affiliations=OWNER&label=STARS&style=flat-square&color=607D8B" alt="Stars" />
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:151B2B,50:27324B,100:151B2B&height=3&section=footer" width="100%" alt="" />
 
 </div>
 
