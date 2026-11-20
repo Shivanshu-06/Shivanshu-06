@@ -1,27 +1,30 @@
 <div align="center">
 
-### 🍃 SHIVANSHU / SHIV 🍃
+<sub>✦ ENGINEERING × IMAGINATION ✦</sub>
 
-# A little code, a lot of curiosity.
+# Hey, I'm Shiv. 👋
 
-**Full-Stack Developer · Industrial Automation Programmer · Robotics Enthusiast**
+### I build for the web, the factory floor & the future.
 
-Germany 🇩🇪 · [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)
+**Full-Stack Developer** &nbsp;·&nbsp; **Industrial Automation** &nbsp;·&nbsp; **Robotics**
 
-<sub>「小さな一歩から」 — from small steps · building useful things with a little wonder</sub>
+<sub>Based in Germany 🇩🇪 &nbsp; | &nbsp; Building at [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)</sub>
 
 <br>
 
-[![Portfolio: Live Websites](https://img.shields.io/badge/Portfolio-3%20featured%20websites-E8DFFA?style=for-the-badge&labelColor=FCFAFF&color=83A38A)](#-selected-work--the-three-websites)
-[![PCE Organization](https://img.shields.io/badge/Company-PCE%20Engineering-E7F2EF?style=for-the-badge&labelColor=FCFAFF&color=9EAA83)](https://github.com/PCE-Process-Control-Engineers-GmbH)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E9F1FC?style=for-the-badge&labelColor=FCFAFF&color=B39B7E)](https://www.linkedin.com/in/shivanshupatil/)
+[![Featured Work](https://img.shields.io/badge/✦_FEATURED_WORK-03_LIVE_WEBSITES-587D71?style=for-the-badge&labelColor=E9F0E7)](#-selected-work--the-three-websites)
+[![Current Focus](https://img.shields.io/badge/⚡_CURRENT_FOCUS-WEB_+_AUTOMATION-BB826B?style=for-the-badge&labelColor=F4EBE3)](#-the-developer-behind-the-code)
+
+<br>
+
+<sub>✧ create with curiosity · engineer with purpose ✧</sub>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif" alt="Original cozy pixel-art animation: a cat, a coding desk and a leafy plant" width="560" />
+  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=neon-robot-20261120" alt="Original animated neon-night coding scene with a hovering robot" width="720" />
 </div>
 
 ---
