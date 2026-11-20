@@ -47,57 +47,63 @@ def pixel(draw, x, y, w, h, color, scale=4):
     draw.rectangle((x*scale, y*scale, (x+w)*scale-1, (y+h)*scale-1), fill=color)
 
 def cozy_gif():
-    frames=[]
-    for t in range(16):
-        im=Image.new("RGB",(560,208),"#FCF9F0")
-        d=ImageDraw.Draw(im)
-        # Sky, hill, clouds, and tiny stars: original pixel illustration
-        pixel(d,0,0,140,52,"#FCF9F0")
-        pixel(d,0,38,140,14,"#DDE9D8")
-        pixel(d,0,45,140,7,"#B9D1B2")
-        for x,y in [(10,8),(112,11),(121,26)]:
-            pixel(d,x,y,2,2,"#E6CFA6")
-        shift=(t//4)%4
-        for x,y in [(16,13),(94,9)]:
-            pixel(d,x+shift,y,18,3,"#E7E8DB")
-            pixel(d,x+3+shift,y-3,10,3,"#E7E8DB")
-        # Desk and notebook
-        pixel(d,29,37,83,4,"#9A755E")
-        pixel(d,33,41,5,11,"#846753")
-        pixel(d,103,41,5,11,"#846753")
-        pixel(d,49,25,40,13,"#657F72")
-        pixel(d,52,28,34,8,"#E4EEDF")
-        pixel(d,54,30,15,2,"#B5C9B0")
-        pixel(d,54,33,24,1,"#A0B7A0")
-        pixel(d,44,38,49,2,"#C4B6A0")
-        # Plant pot with moving leaf
-        pixel(d,100,31,9,7,"#C58D79")
-        pixel(d,103,22,2,9,"#567B60")
-        pixel(d,99+(t//4)%2,23,5,3,"#7FA585")
-        pixel(d,105,20+(t//5)%2,5,4,"#709A7B")
-        # A tiny wandering forest spirit with a lantern, original pixel character.
-        bob = (t // 4) % 2
-        pixel(d,15,26-bob,17,12,"#F4F1DF")
-        pixel(d,18,22-bob,11,5,"#F4F1DF")
-        pixel(d,21,30-bob,2,2,"#586E60")
-        pixel(d,27,30-bob,2,2,"#586E60")
-        pixel(d,24,34-bob,2,1,"#B98C7D")
-        pixel(d,17,37-bob,4,2,"#E5DEC9")
-        pixel(d,28,37-bob,4,2,"#E5DEC9")
-        # A leaf hat and a little glowing lantern.
-        pixel(d,19,19-bob,13,3,"#7F9D79")
-        pixel(d,24,17-bob,8,3,"#94B18B")
-        pixel(d,31,29-bob,6,2,"#E5DEC9")
-        pixel(d,36,27-bob,6,8,"#9A7659")
-        pixel(d,37,28-bob,4,5,"#E7BE75" if t%4<2 else "#F5D998")
-        pixel(d,38,25-bob,2,2,"#9A7659")
-        # Floating fireflies.
-        for fx, fy, phase in [(9,19,0),(43,14,4),(37,9,8)]:
-            if (t+phase)%12<9:
-                pixel(d,fx,fy-((t+phase)//4)%2,2,2,"#EBCF83")
+    """Original neon-night coding scene: hovering mini robot, glowing terminal, shooting stars."""
+    frames = []
+    for t in range(24):
+        im = Image.new("RGB", (720, 288), "#101827")
+        d = ImageDraw.Draw(im)
+        # Midnight sky, stars and faraway skyline
+        d.rectangle((0, 220, 720, 288), fill="#172D35")
+        for x, y in [(42,36),(103,64),(189,25),(274,53),(361,22),(445,68),(537,28),(648,57),(693,21)]:
+            d.rectangle((x,y,x+3,y+3),fill="#A6D9D0" if (t+x)%7<5 else "#F4D59A")
+        d.ellipse((564,36,644,116),fill="#E9D9AE")
+        d.ellipse((580,28,653,104),fill="#101827")
+        for i,x in enumerate(range(0,720,38)):
+            height=30+(i*17)%65
+            d.rectangle((x,220-height,x+28,220),fill="#203E47")
+            for wy in range(220-height+12,214,18):
+                d.rectangle((x+8,wy,x+12,wy+5),fill="#7BAFA1")
+        # Neon terminal and desk
+        d.rounded_rectangle((214,92,508,238),radius=12,fill="#38565C",outline="#8AB7A5",width=4)
+        d.rectangle((229,107,493,217),fill="#0B1F2A")
+        d.rounded_rectangle((160,235,560,247),radius=4,fill="#A47C70")
+        d.rectangle((194,247,209,288),fill="#6E5B58")
+        d.rectangle((512,247,527,288),fill="#6E5B58")
+        # Animated terminal code and a small heart pulse
+        for j in range(6):
+            line_y=119+j*15
+            line_len=60+((j*29+t*5)%110)
+            d.rounded_rectangle((248,line_y,248+line_len,line_y+4),radius=2,fill="#75C9B1" if j%2==0 else "#D4B18A")
+        cursor_x=248+((t//2)%15)*10
+        d.rectangle((cursor_x,209,cursor_x+7,214),fill="#E9D9AE")
+        # Floating original robot mascot, blinking eyes and subtle hover
+        bob=round(5*math.sin(2*math.pi*t/24))
+        cy=127+bob
+        d.rounded_rectangle((43,cy,159,cy+86),radius=24,fill="#E7D8B9",outline="#86BBAF",width=5)
+        d.rounded_rectangle((56,cy+22,146,cy+63),radius=14,fill="#213E46")
+        for ex in [81,119]:
+            if t in [10,11]:
+                d.line((ex-7,cy+44,ex+7,cy+44),fill="#9BE7D2",width=4)
+            else:
+                d.ellipse((ex-7,cy+36,ex+7,cy+50),fill="#9BE7D2")
+        d.line((102,cy-4,102,cy-17),fill="#B8CFBA",width=5)
+        d.ellipse((96,cy-25,108,cy-13),fill="#EAC68C")
+        d.ellipse((65,cy+83,90,cy+95),fill="#6AACA1")
+        d.ellipse((114,cy+83,139,cy+95),fill="#6AACA1")
+        # Tiny orbiting fireflies
+        for k in range(4):
+            angle=2*math.pi*(t/24+k/4)
+            x=106+87*math.cos(angle)
+            y=166+48*math.sin(angle)
+            d.ellipse((x-3,y-3,x+3,y+3),fill="#E9C58B")
+        # A moving shooting star
+        sx=610-(t*17)%560
+        sy=48+(t*5)%85
+        d.line((sx+22,sy-10,sx,sy),fill="#B5D8CF",width=3)
+        d.ellipse((sx-3,sy-3,sx+3,sy+3),fill="#F7E8C3")
         frames.append(im)
-    frames[0].save(OUT/"cozy-coding.gif",save_all=True,append_images=frames[1:],duration=160,loop=0,optimize=True)
-    print("Created original cozy-coding.gif")
+    frames[0].save(OUT / "cozy-coding.gif",save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
+    print("Created original neon robot GIF")
 
 if __name__=="__main__":
     cozy_gif()
