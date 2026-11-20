@@ -75,19 +75,26 @@ def cozy_gif():
         pixel(d,103,22,2,9,"#567B60")
         pixel(d,99+(t//4)%2,23,5,3,"#7FA585")
         pixel(d,105,20+(t//5)%2,5,4,"#709A7B")
-        # Cat: ears, body, eyes, gently swishing tail
-        pixel(d,13,29,22,9,"#D8BDA3")
-        pixel(d,16,25,5,5,"#D8BDA3")
-        pixel(d,28,25,5,5,"#D8BDA3")
-        pixel(d,19,31,2,2,"#514B48")
-        pixel(d,28,31,2,2,"#514B48")
-        pixel(d,24,34,2,1,"#C38386")
-        pixel(d,11-(t//4)%3,32,5,2,"#D8BDA3")
-        # floating warm heart
-        if t%8<6:
-            pixel(d,39,15-(t//3)%3,2,2,"#D99E9E")
-            pixel(d,42,15-(t//3)%3,2,2,"#D99E9E")
-            pixel(d,40,17-(t//3)%3,3,2,"#D99E9E")
+        # A tiny wandering forest spirit with a lantern, original pixel character.
+        bob = (t // 4) % 2
+        pixel(d,15,26-bob,17,12,"#F4F1DF")
+        pixel(d,18,22-bob,11,5,"#F4F1DF")
+        pixel(d,21,30-bob,2,2,"#586E60")
+        pixel(d,27,30-bob,2,2,"#586E60")
+        pixel(d,24,34-bob,2,1,"#B98C7D")
+        pixel(d,17,37-bob,4,2,"#E5DEC9")
+        pixel(d,28,37-bob,4,2,"#E5DEC9")
+        # A leaf hat and a little glowing lantern.
+        pixel(d,19,19-bob,13,3,"#7F9D79")
+        pixel(d,24,17-bob,8,3,"#94B18B")
+        pixel(d,31,29-bob,6,2,"#E5DEC9")
+        pixel(d,36,27-bob,6,8,"#9A7659")
+        pixel(d,37,28-bob,4,5,"#E7BE75" if t%4<2 else "#F5D998")
+        pixel(d,38,25-bob,2,2,"#9A7659")
+        # Floating fireflies.
+        for fx, fy, phase in [(9,19,0),(43,14,4),(37,9,8)]:
+            if (t+phase)%12<9:
+                pixel(d,fx,fy-((t+phase)//4)%2,2,2,"#EBCF83")
         frames.append(im)
     frames[0].save(OUT/"cozy-coding.gif",save_all=True,append_images=frames[1:],duration=160,loop=0,optimize=True)
     print("Created original cozy-coding.gif")
