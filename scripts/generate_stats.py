@@ -1,67 +1,82 @@
 #!/usr/bin/env python3
-"""Generate Graphite SVG stats from publicly accessible GitHub repository data."""
-import json, os, urllib.request, urllib.parse, html
+"""Generate self-hosted, light-theme GitHub profile statistics from public repositories."""
+import json
+import os
+import urllib.request
+import urllib.parse
+import html
 from pathlib import Path
 from datetime import datetime, timezone
 
-USER = os.environ.get('GH_USERNAME', 'Shivanshu-06')
-TOKEN = os.environ.get('GH_TOKEN', '')
-OUT = Path(__file__).resolve().parents[1] / 'assets' / 'stats'
+USER = os.environ.get("GH_USERNAME", "Shivanshu-06")
+TOKEN = os.environ.get("GH_TOKEN", "")
+OUT = Path(__file__).resolve().parents[1] / "assets" / "stats"
 OUT.mkdir(parents=True, exist_ok=True)
 
 def get(url):
-    headers={'Accept':'application/vnd.github+json','User-Agent':'graphite-profile-stats','X-GitHub-Api-Version':'2022-11-28'}
-    if TOKEN: headers['Authorization']='Bearer '+TOKEN
-    req=urllib.request.Request(url,headers=headers)
-    with urllib.request.urlopen(req,timeout=25) as r: return json.load(r)
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "shiv-profile-stats", "X-GitHub-Api-Version": "2022-11-28"}
+    if TOKEN:
+        headers["Authorization"] = "Bearer " + TOKEN
+    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=25) as response:
+        return json.load(response)
 
-def esc(s): return html.escape(str(s),quote=True)
+def esc(value):
+    return html.escape(str(value), quote=True)
 
-def svg(width,height,body):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img"><title>GitHub public repository statistics</title><style>text{{font-family:Arial,Helvetica,sans-serif}}.muted{{fill:#999da5}}.white{{fill:#f0f0f1}}@media(prefers-reduced-motion:no-preference){{.pulse{{animation:pulse 2.5s ease-in-out infinite}}@keyframes pulse{{50%{{opacity:.3}}}}}}</style><rect x="1" y="1" width="{width-2}" height="{height-2}" rx="18" fill="#202124" stroke="#3a3b3f"/>{body}</svg>'''
+def text(x, y, value, size=16, color="#534F4B", weight=400):
+    return f'<text x="{x}" y="{y}" font-family="Arial,Helvetica,sans-serif" font-size="{size}" font-weight="{weight}" fill="{color}">{esc(value)}</text>'
 
-def txt(x,y,s,size=15,cls='white',weight='normal'):
-    return f'<text x="{x}" y="{y}" font-size="{size}" class="{cls}" font-weight="{weight}">{esc(s)}</text>'
+def svg(body):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img"><rect x="1" y="1" width="598" height="228" rx="17" fill="#FFFCF6" stroke="#D8E3D4" stroke-width="2"/>{body}</svg>"""
 
 def main():
-    repos=[]
-    for page in range(1,11):
-        chunk=get(f'https://api.github.com/users/{urllib.parse.quote(USER)}/repos?per_page=100&page={page}&type=owner')
+    repos = []
+    for page in range(1, 11):
+        chunk = get(f"https://api.github.com/users/{urllib.parse.quote(USER)}/repos?per_page=100&page={page}&type=owner")
         repos.extend(chunk)
-        if len(chunk)<100: break
-    repos=[r for r in repos if not r.get('fork') and not r.get('private')]
-    stars=sum(r.get('stargazers_count',0) for r in repos)
-    forks=sum(r.get('forks_count',0) for r in repos)
-    counts={}
-    # GitHub language field is the primary language of each public non-fork repository.
-    for r in repos:
-        language=r.get('language')
-        if language: counts[language]=counts.get(language,0)+1
-    counts=sorted(counts.items(),key=lambda kv:(-kv[1],kv[0]))
-    updated=datetime.now(timezone.utc).strftime('%d %b %Y UTC')
-    b=txt(30,41,'PUBLIC REPOSITORY OVERVIEW',14,'white','bold')+'<circle class="pulse" cx="562" cy="35" r="5" fill="#dedee0"/>'
-    for x,val,label in [(30,len(repos),'Repositories'),(220,stars,'Stars received'),(410,forks,'Forks received')]:
-        b+=txt(x,111,val,38,'white','bold')+txt(x,138,label,13,'muted')
-    b+=txt(30,182,'Public, non-fork repositories only',12,'muted')+txt(30,205,'Updated '+updated,11,'muted')
-    (OUT/'overview.svg').write_text(svg(600,230,b),encoding='utf-8')
-    palette=['#eeeeef','#c8c9cc','#a2a5aa','#7f8389','#60656d','#484b52']
-    total=sum(v for _,v in counts)
-    b=txt(30,41,'PRIMARY REPOSITORY LANGUAGES',14,'white','bold')
-    if not counts:
-        b+=txt(30,98,'No public repository language data',15,'muted')
-    else:
-        x=30
-        for i,(name,n) in enumerate(counts[:6]):
-            w=540*n/total if total else 0
-            b+=f'<rect x="{x:.1f}" y="63" width="{max(0,w-2):.1f}" height="14" rx="2" fill="{palette[i]}"/>'
-            x+=w
-        for i,(name,n) in enumerate(counts[:5]):
-            col=i%2; row=i//2
-            xx=30+col*275; yy=110+row*28
-            b+=f'<rect x="{xx}" y="{yy-10}" width="9" height="9" rx="2" fill="{palette[i]}"/>'
-            b+=txt(xx+17,yy, f'{name} · {n} repo'+('s' if n!=1 else ''),13,'white')
-    b+=txt(30,212,'Based on each repository’s primary language',11,'muted')
-    (OUT/'languages.svg').write_text(svg(600,230,b),encoding='utf-8')
-    print(f'Generated stats for {USER}: {len(repos)} public non-fork repositories')
+        if len(chunk) < 100:
+            break
+    repos = [repo for repo in repos if not repo.get("fork") and not repo.get("private")]
+    stars = sum(repo.get("stargazers_count", 0) for repo in repos)
+    forks = sum(repo.get("forks_count", 0) for repo in repos)
+    updated = datetime.now(timezone.utc).strftime("%d %b %Y UTC")
 
-if __name__=='__main__': main()
+    body = text(28, 45, "GITHUB · PUBLIC REPOSITORIES", 16, "#466E5C", 700)
+    body += '<rect x="28" y="60" width="544" height="1" fill="#E1E8DD"/>'
+    for x, value, label in [(30, len(repos), "Repositories"), (218, stars, "Stars"), (406, forks, "Forks")]:
+        body += f'<rect x="{x-8}" y="78" width="167" height="98" rx="11" fill="#F0F5ED"/>'
+        body += text(x+10, 122, value, 34, "#476F5A", 700)
+        body += text(x+10, 150, label, 13, "#746C61", 500)
+    body += text(30, 198, "Public, non-fork repositories only", 12, "#746C61")
+    body += text(30, 216, "Updated " + updated, 11, "#978C7D")
+    (OUT / "overview.svg").write_text(svg(body), encoding="utf-8")
+
+    counts = {}
+    for repo in repos:
+        language = repo.get("language")
+        if language:
+            counts[language] = counts.get(language, 0) + 1
+    sorted_langs = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+    total = sum(counts.values())
+    body = text(28, 45, "PRIMARY REPOSITORY LANGUAGES", 16, "#466E5C", 700)
+    body += '<rect x="28" y="60" width="544" height="1" fill="#E1E8DD"/>'
+    palette = ["#4E8E77", "#78AD99", "#A5C9B4", "#B5A0C8", "#D3B68F", "#E4C8BE"]
+    x = 28
+    for index, (lang, count) in enumerate(sorted_langs[:6]):
+        width = (544 * count / total) if total else 0
+        body += f'<rect x="{x:.1f}" y="81" width="{max(width-2, 0):.1f}" height="16" rx="3" fill="{palette[index]}"/>'
+        x += width
+        col = index % 2
+        row = index // 2
+        lx = 28 + col * 276
+        ly = 127 + row * 29
+        body += f'<rect x="{lx}" y="{ly-12}" width="11" height="11" rx="2" fill="{palette[index]}"/>'
+        body += text(lx+19, ly, f"{lang} · {count} repositories", 13)
+    if not sorted_langs:
+        body += text(28, 118, "No public repository language data", 14)
+    body += text(28, 213, "Based on each repository's primary language", 11, "#978C7D")
+    (OUT / "languages.svg").write_text(svg(body), encoding="utf-8")
+    print(f"Generated public statistics: {len(repos)} repositories")
+
+if __name__ == "__main__":
+    main()
