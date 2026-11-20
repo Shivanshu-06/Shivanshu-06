@@ -109,7 +109,7 @@ def cozy_gif():
         d.ellipse((548,95+dy,556,103+dy),fill="#A6F2DE")
         d.line((536,87+dy,565,87+dy),fill="#A5D9CF",width=3)
         frames.append(im)
-    frames[0].save(OUT/"cozy-coding.gif",save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
+    frames[0].save(OUT/"robot-diorama.gif",save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
     print("Created original isometric robot workspace animation")
 
 if __name__=="__main__":
