@@ -1,4 +1,4 @@
-name: Generate pastel contribution snake
+name: Generate terracotta and forest contribution snake
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
           github_user_name: Shivanshu-06
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-contribution-grid-snake.gif?color_snake=%23C18AD9&color_dots=%23F7F2F9,%23E8DDF1,%23D2BCE5,%23AD91CE,%238A6CB6&color_background=%23FFFCFA
+            dist/github-contribution-grid-snake.gif?color_snake=%23C4775C&color_dots=%23F1F5EA,%23C7DDBD,%239BBF94,%236A9A76,%233E7159&color_background=%23FFFCF6
 
       - name: Publish GIF to output branch
         uses: crazy-max/ghaction-github-pages@v3.2.0
