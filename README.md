@@ -120,42 +120,47 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 </div>
 
-<details>
-<summary><b>🕹️ BONUS LEVEL — Open the developer inventory</b></summary>
+## 🕹️ Anime emoji challenge
 
-<br>
+Can you guess all three before revealing the answers?
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-**🎮 Main quests**
+### Round 01
 
-- Full-stack websites and web apps
-- Industrial control interfaces
-- ROS 2 robotics and 3D mapping
+**🍥 🦊 🍜 🥷**
+
+<details><summary>Reveal answer</summary><br><b>Naruto</b> 🍜</details>
 
 </td>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-**🧪 Side quests**
+### Round 02
 
-- [Robot Incident Lab](https://github.com/Shivanshu-06/robot-incident-lab)
-- Python experiments and developer tools
-- Gaming, anime and manga
+**🏴‍☠️ 👒 🌊 🍖**
+
+<details><summary>Reveal answer</summary><br><b>One Piece</b> ☠️</details>
+
+</td>
+<td align="center" width="33%">
+
+### Round 03
+
+**🧱 ⚔️ 🕊️ 👹**
+
+<details><summary>Reveal answer</summary><br><b>Attack on Titan</b> ⚔️</details>
 
 </td>
 </tr>
 </table>
 
-```text
-PLAYER     SHIV
-CLASS      DEVELOPER
-LOADOUT    TYPESCRIPT · PYTHON · ROS 2
-STATUS     BUILDING
-```
+<div align="center">
 
-</details>
+[**🎲 Challenge a friend**](https://github.com/Shivanshu-06/Shivanshu-06#%EF%B8%8F-anime-emoji-challenge)
+
+</div>
 
 ## 🎮 Beyond the keyboard
 
