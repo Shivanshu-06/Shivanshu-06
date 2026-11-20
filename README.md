@@ -1,10 +1,6 @@
 <div align="center">
 
-<sub>✦ ENGINEERING × IMAGINATION ✦</sub>
-
 # Hey, I'm Shiv. 👋
-
-### I build for the web, the factory floor & the future.
 
 **Full-Stack Developer** &nbsp;·&nbsp; **Industrial Automation** &nbsp;·&nbsp; **Robotics**
 
@@ -12,19 +8,19 @@
 
 <br>
 
-[![Featured Work](https://img.shields.io/badge/✦_FEATURED_WORK-03_LIVE_WEBSITES-587D71?style=for-the-badge&labelColor=E9F0E7)](#-selected-work--the-three-websites)
-[![Current Focus](https://img.shields.io/badge/⚡_CURRENT_FOCUS-WEB_+_AUTOMATION-BB826B?style=for-the-badge&labelColor=F4EBE3)](#-the-developer-behind-the-code)
+[![Next.js](https://img.shields.io/badge/Next.js-Web_Development-477668?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![ROS 2](https://img.shields.io/badge/ROS_2-Robotics-567F9C?style=for-the-badge&logo=ros&logoColor=white)](https://www.ros.org/)
+[![Automation](https://img.shields.io/badge/PLC_%26_SCADA-Automation-A67B65?style=for-the-badge)](https://github.com/PCE-Process-Control-Engineers-GmbH)
 
 <br>
 
-<sub>✧ create with curiosity · engineer with purpose ✧</sub>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=neon-robot-20261120" alt="Original animated neon-night coding scene with a hovering robot" width="720" />
+  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=cherry-train-20261120" alt="Animated cherry blossom train journey at sunset" width="720" />
 </div>
 
 ---
@@ -110,9 +106,9 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <div align="center">
 
-<!-- Third-party cards reflect publicly available personal GitHub data; private organization work may not be included. -->
+<!-- The left card is generated and stored in this repository. Private organization work is not counted. -->
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&hide_border=true&bg_color=FFFCF6&title_color=52745D&text_color=695F52&icon_color=C4775C&ring_color=83A38A&include_all_commits=true" width="49%" alt="GitHub stats: public activity and repositories" />
+<img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/stats/overview.svg" width="49%" alt="Verified statistics from public non-fork GitHub repositories" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&hide_border=true&bg_color=FFFCF6&title_color=52745D&text_color=695F52&langs_count=8" width="49%" alt="Most-used languages across accessible public repositories" />
 
 <br />
@@ -138,8 +134,6 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 `anime watcher` · `manga reader` · `music on repeat` · `always learning`
 
-*Every good story has another chapter.* 🍃
-
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-567B70?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivanshupatil/)
@@ -147,6 +141,5 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 [![PCE Organization](https://img.shields.io/badge/PCE-Company_projects-9B856B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PCE-Process-Control-Engineers-GmbH)
 [![Email](https://img.shields.io/badge/Email-Say_hello-BD7966?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivanshupatil123@gmail.com)
 
-<sub>✦ Built with curiosity, engineering, and a little everyday magic ✦</sub>
 
 </div>
