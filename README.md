@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=cherry-train-20261120" alt="Animated cherry blossom train journey at sunset" width="720" />
+  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=arcade-racer-20261120" alt="Animated synthwave arcade racing scene with a neon city and moving car" width="720" />
 </div>
 
 ---
