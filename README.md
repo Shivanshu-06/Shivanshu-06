@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif?v=isometric-world-20261120" alt="Animated isometric robot exploring a futuristic workspace" width="720" />
+  <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/robot-diorama.gif" alt="Animated isometric robot exploring a futuristic workspace" width="720" />
 </div>
 
 ---
