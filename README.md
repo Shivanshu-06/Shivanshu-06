@@ -120,48 +120,6 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 </div>
 
-## 🕹️ Anime emoji challenge
-
-Can you guess all three before revealing the answers?
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### Round 01
-
-**🍥 🦊 🍜 🥷**
-
-<details><summary>Reveal answer</summary><br><b>Naruto</b> 🍜</details>
-
-</td>
-<td align="center" width="33%">
-
-### Round 02
-
-**🏴‍☠️ 👒 🌊 🍖**
-
-<details><summary>Reveal answer</summary><br><b>One Piece</b> ☠️</details>
-
-</td>
-<td align="center" width="33%">
-
-### Round 03
-
-**🧱 ⚔️ 🕊️ 👹**
-
-<details><summary>Reveal answer</summary><br><b>Attack on Titan</b> ⚔️</details>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-[**🎲 Challenge a friend**](https://github.com/Shivanshu-06/Shivanshu-06#%EF%B8%8F-anime-emoji-challenge)
-
-</div>
-
 ## 🎮 Beyond the keyboard
 
 <div align="center">
