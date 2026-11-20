@@ -33,7 +33,7 @@ I develop **production-facing websites and web applications** for engineering bu
 
 > **Currently focused on:** Web platforms and developer experience for industrial engineering.
 
-## 🍵 Selected work · the three websites
+## 💻 Featured projects
 
 <sub>Built as part of my work with [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH). Screenshots are captured from the real public websites by a scheduled GitHub Action. Some source repositories are private.</sub>
 
