@@ -8,9 +8,9 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/💻_WEB_DEVELOPMENT-Next.js_&_TypeScript-DCA3B1?style=for-the-badge&labelColor=FFF4F3" alt="Web development" />
-<img src="https://img.shields.io/badge/🎮_GAMING-Player_One-8D8AC5?style=for-the-badge&labelColor=F5F1FC" alt="Gaming" />
-<img src="https://img.shields.io/badge/🤖_ROBOTICS-ROS_2-7BA9A3?style=for-the-badge&labelColor=F0F8F5" alt="Robotics" />
+<img src="https://komarev.com/ghpvc/?username=Shivanshu-06&label=Profile%20Views&color=6B8F85&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Shivanshu-06?label=Followers&style=flat-square&color=9A8BC1&labelColor=F0EDF7" alt="GitHub followers" />
+<img src="https://img.shields.io/github/stars/Shivanshu-06?affiliations=OWNER&style=flat-square&label=Stars&color=C49A75&labelColor=F7F0E9" alt="GitHub stars" />
 
 </div>
 
@@ -103,11 +103,11 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Shivanshu-06&hide_border=true&background=FFFCF6&ring=C9829D&fire=E3A077&currStreakLabel=7D729F&sideLabels=776B7E&dates=8A8190&stroke=EADFE8" width="96%" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=Shivanshu-06&hide_border=true&background=FFFCF6&ring=C9829D&fire=E3A077&currStreakLabel=7D729F&sideLabels=776B7E&dates=8A8190&stroke=EADFE8" width="54%" alt="GitHub contribution streak" />
 
 <br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="96%" alt="GitHub contribution activity timeline" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="74%" alt="GitHub contribution activity timeline" />
 
 </div>
 
@@ -124,11 +124,11 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/🎮_GAMING-LEVEL_99-8576B9?style=for-the-badge&labelColor=F5F0FF" alt="Gaming enthusiast" />
-<img src="https://img.shields.io/badge/🎬_ANIME-WATCHLIST_ACTIVE-D9A0B0?style=for-the-badge&labelColor=FFF1F4" alt="Anime fan" />
-<img src="https://img.shields.io/badge/📚_MANGA-READER-87A99B?style=for-the-badge&labelColor=F1F9F4" alt="Manga reader" />
-<img src="https://img.shields.io/badge/🎧_MUSIC-ON_REPEAT-C3A27B?style=for-the-badge&labelColor=FFF8EE" alt="Music enthusiast" />
-<img src="https://img.shields.io/badge/📖_BOOKS-ONE_MORE_CHAPTER-8E9EC4?style=for-the-badge&labelColor=F1F4FF" alt="Book lover" />
+<img src="https://img.shields.io/badge/Gaming-8576B9?style=for-the-badge" alt="Gaming" />
+<img src="https://img.shields.io/badge/Anime-D9A0B0?style=for-the-badge" alt="Anime" />
+<img src="https://img.shields.io/badge/Manga-87A99B?style=for-the-badge" alt="Manga" />
+<img src="https://img.shields.io/badge/Music-C3A27B?style=for-the-badge" alt="Music" />
+<img src="https://img.shields.io/badge/Books-8E9EC4?style=for-the-badge" alt="Books" />
 
 ---
 
