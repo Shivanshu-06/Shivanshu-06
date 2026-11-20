@@ -109,7 +109,7 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 <!-- The left card is generated and stored in this repository. Private organization work is not counted. -->
 
 <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/stats/overview.svg" width="49%" alt="Verified statistics from public non-fork GitHub repositories" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&hide_border=true&bg_color=FFFCF6&title_color=52745D&text_color=695F52&langs_count=8" width="49%" alt="Most-used languages across accessible public repositories" />
+<img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/stats/languages.svg" width="49%" alt="Languages used across public GitHub repositories" />
 
 <br />
 
