@@ -12,7 +12,7 @@ Germany 🇩🇪 · [PCE Process Control Engineers GmbH](https://github.com/PCE-
 
 <br>
 
-[![Portfolio: Live Websites](https://img.shields.io/badge/Portfolio-3%20featured%20websites-E8DFFA?style=for-the-badge&labelColor=FCFAFF&color=83A38A)](#-featured-web-projects)
+[![Portfolio: Live Websites](https://img.shields.io/badge/Portfolio-3%20featured%20websites-E8DFFA?style=for-the-badge&labelColor=FCFAFF&color=83A38A)](#-selected-work--the-three-websites)
 [![PCE Organization](https://img.shields.io/badge/Company-PCE%20Engineering-E7F2EF?style=for-the-badge&labelColor=FCFAFF&color=9EAA83)](https://github.com/PCE-Process-Control-Engineers-GmbH)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E9F1FC?style=for-the-badge&labelColor=FCFAFF&color=B39B7E)](https://www.linkedin.com/in/shivanshupatil/)
 
@@ -44,41 +44,48 @@ I develop **production-facing websites and web applications** for engineering bu
 <sub>Built as part of my work with [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH). Screenshots are captured from the real public websites by a scheduled GitHub Action. Some source repositories are private.</sub>
 
 <table>
-<tr><td width="50%" valign="top">
+<tr>
+<td width="33%" valign="top" align="center">
 
-<a href="https://www.pce-ei.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-controls.png" alt="Real screenshot of PCE Controls Engineers website" width="100%" /></a>
+<a href="https://www.pce-ei.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-controls-card.png" alt="Screenshot of PCE Controls Engineers" width="100%" /></a>
 
-### 01 · PCE Controls Engineers
-**Engineering, in two languages.** A responsive DE/EN company site with services, projects, careers, news and localized routing.
+**01 · [PCE Controls Engineers](https://www.pce-ei.de/)**
 
-`Next.js` `TypeScript` `Tailwind CSS` `next-intl`
+Multilingual engineering website · DE/EN services, projects, careers and news.
 
-[Live website ↗](https://www.pce-ei.de/) · [Public preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-website-preview)
+<code>Next.js</code> <code>TypeScript</code> <code>next-intl</code>
 
-</td><td width="50%" valign="top">
+[Live site](https://www.pce-ei.de/) · [Preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-website-preview)
 
-<a href="https://www.pce-es.de/de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-energy.png" alt="Real screenshot of PCE Energy Solutions website" width="100%" /></a>
+</td>
+<td width="33%" valign="top" align="center">
 
-### 02 · PCE Energy Solutions
-**Engineering with a clean digital presence.** A responsive corporate experience for energy and engineering services.
+<a href="https://www.pce-es.de/de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-energy-card.png" alt="Screenshot of PCE Energy Solutions" width="100%" /></a>
 
-`Next.js` `React` `Responsive UI`
+**02 · [PCE Energy Solutions](https://www.pce-es.de/de/)**
 
-[Live website ↗](https://www.pce-es.de/de/) · [Public preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-es-website-preview)
+Responsive company website showcasing energy and engineering services.
 
-</td></tr>
-<tr><td colspan="2" valign="top">
+<code>Next.js</code> <code>React</code> <code>Responsive UI</code>
 
-<a href="https://data-know-how.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/data-know-how.png" alt="Real screenshot of Data-Know-How industrial training website" width="100%" /></a>
+[Live site](https://www.pce-es.de/de/) · [Preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-es-website-preview)
 
-### 03 · Data-Know-How
-**Industrial training, thoughtfully organized.** A course catalogue with qualification pathways, course details, and Supabase-backed inquiry and administration workflows.
+</td>
+<td width="33%" valign="top" align="center">
 
-`Next.js` `TypeScript` `Tailwind CSS` `Supabase` `PostgreSQL`
+<a href="https://data-know-how.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/data-know-how-card.png" alt="Screenshot of Data-Know-How" width="100%" /></a>
 
-[Explore the live platform ↗](https://data-know-how.de/) · **Private company source repository**
+**03 · [Data-Know-How](https://data-know-how.de/)**
 
-</td></tr></table>
+Industrial training catalogue, qualification paths and inquiry workflows.
+
+<code>Next.js</code> <code>Supabase</code> <code>PostgreSQL</code>
+
+[Live site](https://data-know-how.de/) · Private source
+
+</td>
+</tr>
+</table>
 
 ## 🛠 Beyond the browser
 
@@ -124,7 +131,7 @@ I develop **production-facing websites and web applications** for engineering bu
 
 <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/output/github-contribution-grid-snake.gif" width="95%" alt="Animated contribution snake eating GitHub activity blocks" />
 
-<sub>Generated automatically by GitHub Actions · soft pixel palette · refreshes daily</sub>
+<sub>Generated automatically by GitHub Actions · terracotta snake + sage/forest contributions · refreshes daily</sub>
 
 </div>
 
@@ -138,7 +145,10 @@ I develop **production-facing websites and web applications** for engineering bu
 
 ---
 
-[**LinkedIn**](https://www.linkedin.com/in/shivanshupatil/) · [**Email**](mailto:shivanshupatil123@gmail.com) · [**PCE GitHub**](https://github.com/PCE-Process-Control-Engineers-GmbH)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-567B70?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivanshupatil/)
+[![GitHub](https://img.shields.io/badge/GitHub-Explore_my_code-596F5E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivanshu-06)
+[![PCE Organization](https://img.shields.io/badge/PCE-Company_projects-9B856B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PCE-Process-Control-Engineers-GmbH)
+[![Email](https://img.shields.io/badge/Email-Say_hello-BD7966?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivanshupatil123@gmail.com)
 
 <sub>✦ Built with curiosity, engineering, and a little everyday magic ✦</sub>
 
