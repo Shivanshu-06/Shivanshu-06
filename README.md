@@ -22,8 +22,6 @@ Germany 🇩🇪 · [PCE Process Control Engineers GmbH](https://github.com/PCE-
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/cozy-coding.gif" alt="Original cozy pixel-art animation: a cat, a coding desk and a leafy plant" width="560" />
-  <br />
-  <sub>✿ a quiet coding corner · original pixel art · made for this profile ✿</sub>
 </div>
 
 ---
@@ -55,7 +53,7 @@ Multilingual engineering website · DE/EN services, projects, careers and news.
 
 <code>Next.js</code> <code>TypeScript</code> <code>next-intl</code>
 
-[Live site](https://www.pce-ei.de/) · [Preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-website-preview)
+[Live site ↗](https://www.pce-ei.de/)
 
 </td>
 <td width="33%" valign="top" align="center">
@@ -68,7 +66,7 @@ Responsive company website showcasing energy and engineering services.
 
 <code>Next.js</code> <code>React</code> <code>Responsive UI</code>
 
-[Live site](https://www.pce-es.de/de/) · [Preview](https://github.com/PCE-Process-Control-Engineers-GmbH/pce-es-website-preview)
+[Live site ↗](https://www.pce-es.de/de/)
 
 </td>
 <td width="33%" valign="top" align="center">
@@ -81,7 +79,7 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <code>Next.js</code> <code>Supabase</code> <code>PostgreSQL</code>
 
-[Live site](https://data-know-how.de/) · Private source
+[Live site ↗](https://data-know-how.de/)
 
 </td>
 </tr>
@@ -105,21 +103,18 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 </div>
 
-## 🌱 GitHub activity
+## 🌱 GitHub stats
 
 <div align="center">
 
-<!-- The cards below reflect personal/public GitHub data, not the total work owned by the PCE organization. -->
+<!-- Third-party cards reflect publicly available personal GitHub data; private organization work may not be included. -->
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu-06&theme=default&hide_border=true&background=FFFCFA&ring=83A38A&fire=C79D72&currStreakLabel=6B8872&sideLabels=786D61&dates=948879" width="58%" alt="GitHub contribution streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=Shivanshu-06&show_icons=true&hide_border=true&bg_color=FFFCF6&title_color=52745D&text_color=695F52&icon_color=C4775C&ring_color=83A38A&include_all_commits=true" width="49%" alt="GitHub stats: public activity and repositories" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu-06&layout=compact&hide_border=true&bg_color=FFFCF6&title_color=52745D&text_color=695F52&langs_count=8" width="49%" alt="Most-used languages across accessible public repositories" />
 
-<br>
+<br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="95%" alt="Personal GitHub activity timeline" />
-
-<br>
-
-<sub>These are personal GitHub activity visualizations, not organization-wide totals. Eligible private contributions may appear as anonymized activity when GitHub settings and commit attribution permit it.</sub>
+<sub>Public GitHub statistics do not represent all work completed in private company repositories.</sub>
 
 </div>
 
@@ -131,7 +126,6 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/output/github-contribution-grid-snake.gif" width="95%" alt="Animated contribution snake eating GitHub activity blocks" />
 
-<sub>Generated automatically by GitHub Actions · terracotta snake + sage/forest contributions · refreshes daily</sub>
 
 </div>
 
