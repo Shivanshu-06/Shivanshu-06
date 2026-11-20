@@ -26,6 +26,16 @@ def screenshots():
                     raise RuntimeError(f"HTTP {response.status if response else 'no response'}")
                 page.wait_for_timeout(2200)
                 page.screenshot(path=str(OUT / f"{name}.png"), full_page=False, animations="disabled")
+                # Use a fixed-size crop for identical card aspect ratios on GitHub.
+                with Image.open(OUT / f"{name}.png") as shot:
+                    shot = shot.convert("RGB")
+                    target_ratio = 4 / 3
+                    w, h = shot.size
+                    crop_h = min(h, round(w / target_ratio))
+                    crop_w = min(w, round(crop_h * target_ratio))
+                    shot = shot.crop((0, 0, crop_w, crop_h))
+                    shot = shot.resize((640, 480), Image.Resampling.LANCZOS)
+                    shot.save(OUT / f"{name}-card.png", optimize=True)
                 print(f"Captured {name}: {page.url}")
             except Exception as exc:
                 print(f"WARNING: screenshot failed for {name}: {exc}")
