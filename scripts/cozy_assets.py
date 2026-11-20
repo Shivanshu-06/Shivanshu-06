@@ -47,63 +47,70 @@ def pixel(draw, x, y, w, h, color, scale=4):
     draw.rectangle((x*scale, y*scale, (x+w)*scale-1, (y+h)*scale-1), fill=color)
 
 def cozy_gif():
-    """Original neon-night coding scene: hovering mini robot, glowing terminal, shooting stars."""
+    """Draw an original animated pastel railway landscape with cherry blossoms."""
     frames = []
-    for t in range(24):
-        im = Image.new("RGB", (720, 288), "#101827")
+    width, height = 720, 288
+    for t in range(32):
+        im = Image.new("RGB", (width, height), "#F8DED5")
         d = ImageDraw.Draw(im)
-        # Midnight sky, stars and faraway skyline
-        d.rectangle((0, 220, 720, 288), fill="#172D35")
-        for x, y in [(42,36),(103,64),(189,25),(274,53),(361,22),(445,68),(537,28),(648,57),(693,21)]:
-            d.rectangle((x,y,x+3,y+3),fill="#A6D9D0" if (t+x)%7<5 else "#F4D59A")
-        d.ellipse((564,36,644,116),fill="#E9D9AE")
-        d.ellipse((580,28,653,104),fill="#101827")
-        for i,x in enumerate(range(0,720,38)):
-            height=30+(i*17)%65
-            d.rectangle((x,220-height,x+28,220),fill="#203E47")
-            for wy in range(220-height+12,214,18):
-                d.rectangle((x+8,wy,x+12,wy+5),fill="#7BAFA1")
-        # Neon terminal and desk
-        d.rounded_rectangle((214,92,508,238),radius=12,fill="#38565C",outline="#8AB7A5",width=4)
-        d.rectangle((229,107,493,217),fill="#0B1F2A")
-        d.rounded_rectangle((160,235,560,247),radius=4,fill="#A47C70")
-        d.rectangle((194,247,209,288),fill="#6E5B58")
-        d.rectangle((512,247,527,288),fill="#6E5B58")
-        # Animated terminal code and a small heart pulse
-        for j in range(6):
-            line_y=119+j*15
-            line_len=60+((j*29+t*5)%110)
-            d.rounded_rectangle((248,line_y,248+line_len,line_y+4),radius=2,fill="#75C9B1" if j%2==0 else "#D4B18A")
-        cursor_x=248+((t//2)%15)*10
-        d.rectangle((cursor_x,209,cursor_x+7,214),fill="#E9D9AE")
-        # Floating original robot mascot, blinking eyes and subtle hover
-        bob=round(5*math.sin(2*math.pi*t/24))
-        cy=127+bob
-        d.rounded_rectangle((43,cy,159,cy+86),radius=24,fill="#E7D8B9",outline="#86BBAF",width=5)
-        d.rounded_rectangle((56,cy+22,146,cy+63),radius=14,fill="#213E46")
-        for ex in [81,119]:
-            if t in [10,11]:
-                d.line((ex-7,cy+44,ex+7,cy+44),fill="#9BE7D2",width=4)
+        # Hand-painted-style twilight gradient.
+        for y in range(0, height):
+            ratio = y / height
+            if ratio < 0.62:
+                k = ratio / 0.62
+                col = (int(250-21*k), int(219-19*k), int(207+12*k))
             else:
-                d.ellipse((ex-7,cy+36,ex+7,cy+50),fill="#9BE7D2")
-        d.line((102,cy-4,102,cy-17),fill="#B8CFBA",width=5)
-        d.ellipse((96,cy-25,108,cy-13),fill="#EAC68C")
-        d.ellipse((65,cy+83,90,cy+95),fill="#6AACA1")
-        d.ellipse((114,cy+83,139,cy+95),fill="#6AACA1")
-        # Tiny orbiting fireflies
-        for k in range(4):
-            angle=2*math.pi*(t/24+k/4)
-            x=106+87*math.cos(angle)
-            y=166+48*math.sin(angle)
-            d.ellipse((x-3,y-3,x+3,y+3),fill="#E9C58B")
-        # A moving shooting star
-        sx=610-(t*17)%560
-        sy=48+(t*5)%85
-        d.line((sx+22,sy-10,sx,sy),fill="#B5D8CF",width=3)
-        d.ellipse((sx-3,sy-3,sx+3,sy+3),fill="#F7E8C3")
+                k = (ratio-0.62)/0.38
+                col = (int(229-73*k), int(200-22*k), int(219-62*k))
+            d.line((0, y, width, y), fill=col)
+        # Sunset, cloud ribbons and mountain silhouettes.
+        d.ellipse((508, 52, 620, 164), fill="#FFF1BE")
+        for cx,cy,cw in [(74,58,118),(342,30,106),(588,86,104)]:
+            d.ellipse((cx,cy,cx+cw,cy+19),fill="#FFE8DB")
+            d.ellipse((cx+17,cy-10,cx+cw-17,cy+15),fill="#FFE8DB")
+        d.polygon([(0,177),(80,107),(157,184),(239,139),(346,193),(456,121),(558,189),(652,115),(720,176),(720,226),(0,226)],fill="#9FB8AD")
+        d.polygon([(0,208),(105,166),(225,213),(337,176),(449,228),(565,165),(720,216),(720,288),(0,288)],fill="#698F82")
+        d.rectangle((0,222,720,288),fill="#5C8275")
+        # Narrow river framed by greenery.
+        d.polygon([(0,244),(280,227),(435,288),(0,288)],fill="#83A9A0")
+        for lineY in [251,267,280]:
+            d.line((25,lineY,156,lineY-3),fill="#B4D3C9",width=2)
+        # Rail bridge and sleepers.
+        d.rectangle((0,205,720,214),fill="#75675E")
+        d.rectangle((0,215,720,222),fill="#554E4D")
+        for xx in range(0,720,36):
+            d.rectangle((xx,214,xx+8,226),fill="#594C4A")
+        # Smooth-moving compact train, deliberately no animal/robot mascot.
+        x = -308 + t*35
+        d.rounded_rectangle((x,139,x+311,203),radius=18,fill="#FFF6E8",outline="#476F6C",width=4)
+        d.rectangle((x+17,145,x+269,159),fill="#C77F7F")
+        d.rounded_rectangle((x+22,162,x+75,187),radius=7,fill="#668E93")
+        for j in range(3):
+            wx=x+91+j*54
+            d.rounded_rectangle((wx,162,wx+42,187),radius=6,fill="#668E93")
+            d.line((wx+8,166,wx+28,185),fill="#B8D2D0",width=3)
+        d.line((x+23,193,x+282,193),fill="#BB9D81",width=3)
+        for wx in (x+49,x+257):
+            d.ellipse((wx-11,196,wx+11,217),fill="#3D5050")
+            d.ellipse((wx-5,202,wx+5,212),fill="#A8B9B1")
+        # Blooming branches across the upper left.
+        d.line((-13,-6,177,81),fill="#735A56",width=11)
+        d.line((85,38,95,103),fill="#735A56",width=7)
+        d.line((143,63,205,28),fill="#735A56",width=6)
+        for j in range(28):
+            bx=15+(j*43)%200
+            by=6+(j*29)%106
+            if (bx-90)**2 + (by-52)**2 < 11000:
+                d.ellipse((bx-8,by-6,bx+8,by+7),fill="#F4B5B6" if j%3 else "#FFE0D6")
+                d.ellipse((bx+3,by-8,bx+13,by+3),fill="#FFE6DE")
+        # Soft falling petals add motion across the full composition.
+        for j in range(21):
+            px=(j*79+t*(2+j%3))%755-15
+            py=(j*53+t*(3+j%2))%305-8
+            d.ellipse((px,py,px+6,py+3),fill="#F6B6BE" if j%2 else "#FFE5D9")
         frames.append(im)
-    frames[0].save(OUT / "cozy-coding.gif",save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
-    print("Created original neon robot GIF")
+    frames[0].save(OUT / "cozy-coding.gif",save_all=True,append_images=frames[1:],duration=95,loop=0,optimize=True)
+    print("Created animated cherry-blossom train landscape")
 
 if __name__=="__main__":
     cozy_gif()
