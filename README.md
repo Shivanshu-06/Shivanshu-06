@@ -1,19 +1,16 @@
 <div align="center">
 
-# Hey, I'm Shiv. 👋
+# 🌸 Hey, I'm Shiv! 👋
 
-**Full-Stack Developer** &nbsp;·&nbsp; **Industrial Automation** &nbsp;·&nbsp; **Robotics**
+**Full-Stack Developer** · **Industrial Automation** · **Robotics**
 
-<sub>Based in Germany 🇩🇪 &nbsp; | &nbsp; Building at [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)</sub>
-
-<br>
-
-[![Next.js](https://img.shields.io/badge/Next.js-Web_Development-477668?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![ROS 2](https://img.shields.io/badge/ROS_2-Robotics-567F9C?style=for-the-badge&logo=ros&logoColor=white)](https://www.ros.org/)
-[![Automation](https://img.shields.io/badge/PLC_%26_SCADA-Automation-A67B65?style=for-the-badge)](https://github.com/PCE-Process-Control-Engineers-GmbH)
+🇩🇪 Germany &nbsp; · &nbsp; [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)
 
 <br>
 
+<img src="https://img.shields.io/badge/🌸_WEB_DEVELOPMENT-Next.js_&_TypeScript-DCA3B1?style=for-the-badge&labelColor=FFF4F3" alt="Web development" />
+<img src="https://img.shields.io/badge/🎮_GAMING-Player_One-8D8AC5?style=for-the-badge&labelColor=F5F1FC" alt="Gaming" />
+<img src="https://img.shields.io/badge/🤖_ROBOTICS-ROS_2-7BA9A3?style=for-the-badge&labelColor=F0F8F5" alt="Robotics" />
 
 </div>
 
@@ -106,14 +103,11 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <div align="center">
 
-<!-- The left card is generated and stored in this repository. Private organization work is not counted. -->
+<img src="https://streak-stats.demolab.com?user=Shivanshu-06&hide_border=true&background=FFFCF6&ring=C9829D&fire=E3A077&currStreakLabel=7D729F&sideLabels=776B7E&dates=8A8190&stroke=EADFE8" width="96%" alt="GitHub contribution streak" />
 
-<img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/stats/overview.svg" width="49%" alt="Verified statistics from public non-fork GitHub repositories" />
-<img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/stats/languages.svg" width="49%" alt="Languages used across public GitHub repositories" />
+<br>
 
-<br />
-
-<sub>Public GitHub statistics do not represent all work completed in private company repositories.</sub>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivanshu-06&theme=default" width="96%" alt="GitHub contribution activity timeline" />
 
 </div>
 
@@ -121,25 +115,26 @@ Industrial training catalogue, qualification paths and inquiry workflows.
 
 <div align="center">
 
-**A little pixel adventure through my contribution history.** 🎮
-
 <img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/output/github-contribution-grid-snake.gif" width="95%" alt="Animated contribution snake eating GitHub activity blocks" />
 
 
 </div>
 
-## ☕ Beyond the keyboard
+## 🎮 Beyond the keyboard
 
 <div align="center">
 
-`anime watcher` · `manga reader` · `music on repeat` · `always learning`
+<img src="https://img.shields.io/badge/🎮_GAMING-LEVEL_99-8576B9?style=for-the-badge&labelColor=F5F0FF" alt="Gaming enthusiast" />
+<img src="https://img.shields.io/badge/🌸_ANIME-WATCHLIST_ACTIVE-D9A0B0?style=for-the-badge&labelColor=FFF1F4" alt="Anime fan" />
+<img src="https://img.shields.io/badge/📚_MANGA-READER-87A99B?style=for-the-badge&labelColor=F1F9F4" alt="Manga reader" />
+<img src="https://img.shields.io/badge/🎧_MUSIC-ON_REPEAT-C3A27B?style=for-the-badge&labelColor=FFF8EE" alt="Music enthusiast" />
+<img src="https://img.shields.io/badge/📖_BOOKS-ONE_MORE_CHAPTER-8E9EC4?style=for-the-badge&labelColor=F1F4FF" alt="Book lover" />
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-567B70?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivanshupatil/)
-[![GitHub](https://img.shields.io/badge/GitHub-Explore_my_code-596F5E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivanshu-06)
-[![PCE Organization](https://img.shields.io/badge/PCE-Company_projects-9B856B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PCE-Process-Control-Engineers-GmbH)
-[![Email](https://img.shields.io/badge/Email-Say_hello-BD7966?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivanshupatil123@gmail.com)
-
+[![LinkedIn](https://img.shields.io/badge/🌸_LINKEDIN-Connect-DCA3B1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivanshupatil/)
+[![GitHub](https://img.shields.io/badge/🎮_GITHUB-Explore-8576B9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivanshu-06)
+[![PCE](https://img.shields.io/badge/🍃_PCE-Organization-87A99B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PCE-Process-Control-Engineers-GmbH)
+[![Email](https://img.shields.io/badge/✉️_EMAIL-Say_Hello-C3A27B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivanshupatil123@gmail.com)
 
 </div>
