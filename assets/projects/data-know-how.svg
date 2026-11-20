@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="310" viewBox="0 0 490 310" role="img" aria-label="Data-Know-How featured project">
+ <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#222326"/><stop offset="1" stop-color="#121315"/></linearGradient><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#3a3c40" stroke-width=".6" opacity=".4"/></pattern></defs>
+ <rect width="490" height="310" rx="18" fill="url(#bg)"/><rect x="1" y="1" width="488" height="308" rx="17" fill="none" stroke="#484a50"/><rect width="490" height="310" rx="18" fill="url(#grid)" opacity=".45"/>
+ <circle cx="30" cy="31" r="4" fill="#e5e7eb"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+ <text x="46" y="36" fill="#a8abb1" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">03 / FEATURED WEBSITE</text>
+ <text x="28" y="112" fill="#f5f5f5" font-family="Arial,sans-serif" font-size="28" font-weight="700">Data-Know-How</text>
+ <text x="28" y="150" fill="#c2c5ca" font-family="Arial,sans-serif" font-size="16">Full-stack industrial training platform</text>
+ <path d="M28 210 H462" stroke="#5b5d64" stroke-dasharray="5 8"><animate attributeName="stroke-dashoffset" from="0" to="-52" dur="3s" repeatCount="indefinite"/></path>
+ <text x="28" y="244" fill="#e5e7eb" font-family="monospace" font-size="12">Next.js  /  Supabase  /  PostgreSQL</text>
+ <text x="28" y="281" fill="#8c9099" font-family="monospace" font-size="12" letter-spacing="1.2">TRAINING  ·  FULL STACK</text>
+ <path d="M423 31 h28 v28 m-28 0 28-28" fill="none" stroke="#e5e7eb" stroke-width="2" opacity=".75"/>
+ </svg>

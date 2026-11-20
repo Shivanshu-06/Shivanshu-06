@@ -45,7 +45,26 @@ I'm **Shiv**, a developer and industrial automation programmer based in Germany,
 
 ## GitHub Activity
 
-Custom GitHub statistics powered by GitHub Actions will be added in Phase 2. No placeholder metrics are shown.
+<table>
+<tr>
+<td width="50%"><img src="./assets/stats/overview.svg" alt="Public repositories, stars and forks" width="100%" /></td>
+<td width="50%"><img src="./assets/stats/languages.svg" alt="Primary languages of public repositories" width="100%" /></td>
+</tr>
+</table>
+
+<sub>Automatically refreshed daily using GitHub Actions. Counts include public, non-fork repositories only. Language counts reflect each repository’s primary language, not lines of code or proficiency.</sub>
+
+## Technologies
+
+![TypeScript](https://img.shields.io/badge/TypeScript-252629?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-252629?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-252629?style=flat-square&logo=react&logoColor=white)
+![Python](https://img.shields.io/badge/Python-252629?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-252629?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252629?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-252629?style=flat-square&logo=docker&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-252629?style=flat-square&logo=ros&logoColor=white)
+![Git](https://img.shields.io/badge/Git-252629?style=flat-square&logo=git&logoColor=white)
 
 ## Connect
 
