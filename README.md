@@ -33,50 +33,41 @@ I develop **production-facing websites and web applications** for engineering bu
 
 > **Currently focused on:** Web platforms and developer experience for industrial engineering.
 
-## 💻 Featured projects
+## 💻 Featured Work
 
-<sub>Built as part of my work with [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH). Screenshots are captured from the real public websites by a scheduled GitHub Action. Some source repositories are private.</sub>
+<sub>Selected live websites built as part of my work with [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH). Preview images are captured from the public sites by GitHub Actions; some source repositories are private.</sub>
 
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
-
-<a href="https://www.pce-ei.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-controls-card.png" alt="Screenshot of PCE Controls Engineers" width="100%" /></a>
-
-**01 · [PCE Controls Engineers](https://www.pce-ei.de/)**
-
-Multilingual engineering website · DE/EN services, projects, careers and news.
-
-<code>Next.js</code> <code>TypeScript</code> <code>next-intl</code>
-
-[Live site ↗](https://www.pce-ei.de/)
-
+<td width="33%" valign="top" align="left">
+  <a href="https://www.pce-ei.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-controls-card.png" width="100%" alt="PCE Controls Engineers website preview" /></a>
+  <br />
+  <img src="https://img.shields.io/badge/01%20%7C%20LIVE%20WEBSITE-6B8F85?style=flat-square&labelColor=292D3E" alt="Live website" />
+  <h3><a href="https://www.pce-ei.de/">PCE Controls Engineers</a></h3>
+  <p>A bilingual corporate experience for industrial engineering, with dedicated pages for services, projects, careers, and company news.</p>
+  <p><strong>Highlights</strong><br />DE / EN · Services · Projects · Careers</p>
+  <p><strong>Built with</strong><br /><sub>Next.js · TypeScript · next-intl</sub></p>
+  <p><a href="https://www.pce-ei.de/"><strong>↗ Explore live website</strong></a></p>
 </td>
-<td width="33%" valign="top" align="center">
-
-<a href="https://www.pce-es.de/de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-energy-card.png" alt="Screenshot of PCE Energy Solutions" width="100%" /></a>
-
-**02 · [PCE Energy Solutions](https://www.pce-es.de/de/)**
-
-Responsive company website showcasing energy and engineering services.
-
-<code>Next.js</code> <code>React</code> <code>Responsive UI</code>
-
-[Live site ↗](https://www.pce-es.de/de/)
-
+<td width="33%" valign="top" align="left">
+  <a href="https://www.pce-es.de/de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/pce-energy-card.png" width="100%" alt="PCE Energy Solutions website preview" /></a>
+  <br />
+  <img src="https://img.shields.io/badge/02%20%7C%20LIVE%20WEBSITE-9A8BC1?style=flat-square&labelColor=292D3E" alt="Live website" />
+  <h3><a href="https://www.pce-es.de/de/">PCE Energy Solutions</a></h3>
+  <p>A responsive digital presence presenting the company’s energy solutions, engineering capabilities, and services.</p>
+  <p><strong>Highlights</strong><br />Corporate Website · Responsive Design</p>
+  <p><strong>Built with</strong><br /><sub>Next.js · React · Responsive UI</sub></p>
+  <p><a href="https://www.pce-es.de/de/"><strong>↗ Explore live website</strong></a></p>
 </td>
-<td width="33%" valign="top" align="center">
-
-<a href="https://data-know-how.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/data-know-how-card.png" alt="Screenshot of Data-Know-How" width="100%" /></a>
-
-**03 · [Data-Know-How](https://data-know-how.de/)**
-
-Industrial training catalogue, qualification paths and inquiry workflows.
-
-<code>Next.js</code> <code>Supabase</code> <code>PostgreSQL</code>
-
-[Live site ↗](https://data-know-how.de/)
-
+<td width="33%" valign="top" align="left">
+  <a href="https://data-know-how.de/"><img src="https://raw.githubusercontent.com/Shivanshu-06/Shivanshu-06/main/assets/cozy/data-know-how-card.png" width="100%" alt="Data-Know-How website preview" /></a>
+  <br />
+  <img src="https://img.shields.io/badge/03%20%7C%20LIVE%20WEBSITE-C49A75?style=flat-square&labelColor=292D3E" alt="Live website" />
+  <h3><a href="https://data-know-how.de/">Data-Know-How</a></h3>
+  <p>An industrial training platform with a structured course catalogue, qualification pathways, and course inquiry journeys.</p>
+  <p><strong>Highlights</strong><br />Training Catalogue · Qualification Paths · Inquiries</p>
+  <p><strong>Built with</strong><br /><sub>Next.js · TypeScript · Training Platform</sub></p>
+  <p><a href="https://data-know-how.de/"><strong>↗ Explore live website</strong></a></p>
 </td>
 </tr>
 </table>
