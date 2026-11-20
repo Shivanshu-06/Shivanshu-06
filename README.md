@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <img src="./assets/cozy/deep-sea-drift.gif" alt="Animated underwater scene with luminous jellyfish and drifting fish" width="720" />
+  <img src="./assets/cozy/anime-coder-comedy.gif" alt="Funny original anime-style chibi programmer reacting dramatically to bugs" width="720" />
 </div>
 
 ---
