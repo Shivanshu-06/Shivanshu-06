@@ -14,6 +14,60 @@ SITES = {
     "data-know-how": "https://data-know-how.de/",
 }
 
+def dismiss_cookie_dialogs(page):
+    """Prefer declining optional cookies; remove leftover consent overlays for screenshots."""
+    import re
+
+    # Consent platforms often render outside the normal DOM in an iframe.
+    reject = re.compile(
+        r"(alle ablehnen|alles ablehnen|nur notwendige|nur essenzielle|"
+        r"nur erforderliche|ablehnen|reject all|decline all|"
+        r"necessary only|essential only|only necessary|continue without accepting)",
+        re.IGNORECASE,
+    )
+    for frame in page.frames:
+        try:
+            button = frame.get_by_role("button", name=reject).first
+            if button.count() and button.is_visible():
+                button.click(timeout=2500)
+                page.wait_for_timeout(400)
+        except Exception:
+            pass
+
+    # Screenshot-only cleanup: preserve the actual site and never click 'accept all'.
+    # Also covers cookie providers with inaccessible consent frames.
+    page.evaluate("""() => {
+        const selectors = [
+            '#CybotCookiebotDialog', '#CybotCookiebotDialogBodyUnderlay',
+            '#onetrust-banner-sdk', '.onetrust-pc-dark-filter',
+            '#usercentrics-root', '#uc-center-container', '.uc-overlay',
+            '#cookie-law-info-bar', '.cli-modal-backdrop',
+            '.cky-consent-container', '.cky-modal', '.cky-overlay',
+            '#cmplz-cookiebanner-container', '.cmplz-cookiebanner',
+            '[data-testid="cookie-banner"]', '[data-testid="cookie-consent"]',
+            '[id*="cookie-banner" i]', '[class*="cookie-banner" i]',
+            '[id*="cookie-consent" i]', '[class*="cookie-consent" i]',
+            '[id*="consent-banner" i]', '[class*="consent-banner" i]'
+        ];
+        for (const selector of selectors) {
+            try {
+                document.querySelectorAll(selector).forEach(el => el.remove());
+            } catch (_) {}
+        }
+        // Remove generic visible fixed-position consent panels by their wording.
+        const textPattern = /cookies?|cookie-einstellungen|datenschutz.einstellungen|consent|einwilligung/i;
+        for (const el of document.querySelectorAll('body *')) {
+            if (!el.isConnected || el.children.length > 12) continue;
+            const style = getComputedStyle(el);
+            if (!['fixed', 'sticky'].includes(style.position)) continue;
+            const box = el.getBoundingClientRect();
+            if (box.width < 180 || box.height < 45 || box.height > innerHeight * 0.85) continue;
+            if (textPattern.test((el.innerText || '').slice(0, 700))) el.remove();
+        }
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.overflow = 'auto';
+    }""")
+
 def screenshots():
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
@@ -25,6 +79,8 @@ def screenshots():
                 if not response or response.status >= 400:
                     raise RuntimeError(f"HTTP {response.status if response else 'no response'}")
                 page.wait_for_timeout(2200)
+                dismiss_cookie_dialogs(page)
+                page.wait_for_timeout(350)
                 page.screenshot(path=str(OUT / f"{name}.png"), full_page=False, animations="disabled")
                 # Use a fixed-size crop for identical card aspect ratios on GitHub.
                 with Image.open(OUT / f"{name}.png") as shot:
