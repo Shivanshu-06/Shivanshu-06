@@ -1,8 +1,7 @@
+
 <div align="center">
 
-# Hey, I'm Shiv! 👋
-
-**Full-Stack Developer** · **Industrial Automation** · **Robotics**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:12345B,100:0891B2&height=220&section=header&text=Hey,%20I'm%20Shiv!&fontSize=48&fontColor=FFFFFF&fontAlignY=37&desc=Full-Stack%20Developer%20%7C%20Industrial%20Automation%20%7C%20Robotics&descAlignY=60&descSize=17&animation=fadeIn" width="100%" alt="Shiv GitHub profile banner"/>
 
 🇩🇪 Germany &nbsp; · &nbsp; [PCE Process Control Engineers GmbH](https://github.com/PCE-Process-Control-Engineers-GmbH)
 
@@ -124,5 +123,9 @@ I develop **production-facing websites and web applications** for engineering bu
 [![GitHub](https://img.shields.io/badge/🎮_GITHUB-Explore-8576B9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivanshu-06)
 [![PCE](https://img.shields.io/badge/🍃_PCE-Organization-87A99B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PCE-Process-Control-Engineers-GmbH)
 [![Email](https://img.shields.io/badge/✉️_EMAIL-Say_Hello-C3A27B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivanshupatil123@gmail.com)
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:12345B,100:0B1120&height=110&section=footer" width="100%" alt="Footer wave"/>
 
 </div>
